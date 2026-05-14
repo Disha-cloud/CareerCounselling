@@ -1,44 +1,61 @@
-CareerConnect – Career Counselling and Job Recommendation Platform
-Overview
+# CareerConnect – Career Counselling and Job Recommendation Platform
 
+## Overview
 Full-stack web application developed for career counselling, student guidance, and job recommendation management. Built using Flask, MySQL, HTML, CSS, and JavaScript as part of an academic software engineering project.
 
-Features
-Student Module
-Student registration and login
-Personalized dashboard
-Career goal tracking
-Appointment booking with counsellors
-Job and career recommendations
-Document upload and storage
-Notifications and messaging
-Event and webinar participation
-Counsellor Module
-Counsellor registration and profile management
-Student appointment management
-Counselling session tracking
-Schedule management
-Feedback handling
-Blog and resource posting system
-Admin Module
-User management
-Analytics dashboard
-Event and webinar management
-Feedback monitoring
-Resource management system
-Tech Stack
-Frontend
-HTML5
-CSS3
-JavaScript
-Backend
-Python Flask
-Database
-MySQL
-Tools
-VS Code
-Git & GitHub
-Project Structure
+---
+
+# Features
+
+## Student Module
+- Student registration and login
+- Personalized dashboard
+- Career goal tracking
+- Appointment booking with counsellors
+- Job and career recommendations
+- Document upload and storage
+- Notifications and messaging
+- Event and webinar participation
+
+## Counsellor Module
+- Counsellor registration and profile management
+- Student appointment management
+- Counselling session tracking
+- Schedule management
+- Feedback handling
+- Blog and resource posting system
+
+## Admin Module
+- User management
+- Analytics dashboard
+- Event and webinar management
+- Feedback monitoring
+- Resource management system
+
+---
+
+# Tech Stack
+
+## Frontend
+- HTML5
+- CSS3
+- JavaScript
+
+## Backend
+- Python Flask
+
+## Database
+- MySQL
+
+## Tools
+- VS Code
+- Git & GitHub
+
+---
+
+# Project Structure
+
+```bash
 Career-main/
 │
 ├── static/
@@ -59,84 +76,3 @@ Career-main/
 ├── career_counselling.sql
 ├── README.md
 └── other project files
-Installation
-Prerequisites
-Python 3.x
-MySQL Server
-Flask
-Git
-Setup
-Clone Repository
-git clone https://github.com/your-username/CareerConnect.git
-Navigate to Project Directory
-cd CareerConnect
-Create Virtual Environment
-python -m venv venv
-Activate Environment
-Windows
-venv\Scripts\activate
-Mac/Linux
-source venv/bin/activate
-Install Dependencies
-pip install -r requirements.txt
-Database Configuration
-Create MySQL database
-Import SQL file:
-career_counselling.sql
-Update database configuration in app.py
-
-Example:
-
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'password'
-app.config['MYSQL_DB'] = 'career_counselling'
-Running the Application
-python app.py
-
-Application runs on:
-
-http://127.0.0.1:5000/
-Core Functionalities
-Authentication System
-Secure login and registration
-Role-based access control
-Student, counsellor, and admin separation
-Personalized Dashboard
-Progress tracking
-Goal monitoring
-Appointment overview
-Recommendation display
-Career Recommendation Engine
-Personalized recommendation system
-Career matching logic
-Data-driven suggestions
-Event Management
-Webinar scheduling
-Workshop management
-Student participation tracking
-UI/UX Highlights
-Responsive design
-Pinterest-style layout
-Interactive animations
-Modern professional interface
-User-friendly navigation
-Future Enhancements
-AI-powered career prediction
-Resume analysis system
-Chatbot integration
-Video counselling support
-Mobile application version
-Advanced analytics dashboard
-External job portal integration
-Requirements
-Python 3.x
-Flask
-MySQL
-Modern web browser
-Notes
-Full-stack academic project
-Modular Flask architecture
-Scalable database design
-Ready for future AI integration
-Supports student, counsellor, and admin workflows
